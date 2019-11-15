@@ -21,7 +21,7 @@ def self.genre_count
   @@genres.inject(Hash.new(0)) {|total, genre| total[genre] += 1 ;  total}
 end
 
-def self.artists_count
+def self.artist_count
   @@artists.inject(Hash.new(0)) {|total,artist| total[artist] += 1; total}
 end 
 
